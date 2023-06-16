@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    font-size: 32rem;
+    line-height: 100%;
+    font-family: 'DM Serif Display', serif;
+}
+.holder{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-size: 2vw;
+}
+#background{
+    background-image: linear-gradient(#606C5D,#fffafa);
+    background-color:#606C5D;
+    height: 100%;
+}
+.navbar-custom {
+    background-color:#fff4f4;
+    color: #ffffff;
+    z-index: 1; /* Set the z-index to make it appear on top of other content */
+  }
+  .navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
