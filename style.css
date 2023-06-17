@@ -3,6 +3,12 @@ h1 {
     padding: 0px;
     margin: 0px;
 }
+h2 {
+    font-family: 'DM Serif Display', serif;
+    padding: 0px;
+    margin: 0px;
+    
+}
 .holder{
     color: #fff;
     display: inline-block;
@@ -11,8 +17,8 @@ h1 {
     font-size: 3vw;
 }
 #background{
-    background-image: linear-gradient(#606C5D,#fffafa);
-    background-color:#606C5D;
+    background-image: linear-gradient(#1f6da2,#fffafa) !important;
+    background-color:#1f6da2;
     height: 100%;
 }
 .navbar-custom {
@@ -24,3 +30,62 @@ h1 {
     padding-left:30px;
     padding-right:30px;
 }
+.card{
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0, 0, 0, 0.486);
+
+}
+.contact-section{
+    padding: 40px 0;
+  }
+  .contact-section h1{
+    text-align: center;
+    color: #fff;
+  }
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  .contact-form-text
+  {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #1111110b;
+    padding: 20px 40px;
+    outline: none;
+    color: #000;
+    transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: #2980b9;
+  }
+.no-trans:hover{
+    transform: scale(1)!important;
+    box-shadow: none !important;
+}
+  
