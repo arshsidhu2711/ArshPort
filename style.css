@@ -9,6 +9,9 @@ h2 {
     margin: 0px;
     
 }
+h3 {
+  font-family: 'DM Serif Display', serif;
+}
 .holder{
     color: #fff;
     display: inline-block;
@@ -17,12 +20,14 @@ h2 {
     font-size: 3vw;
 }
 #background{
-    background-image: linear-gradient(#1f6da2,#fffafa) !important;
+    background-image: linear-gradient(#1f6da2,#fff4f4) !important;
     background-color:#1f6da2;
     height: 100%;
 }
 .navbar-custom {
-    background-color:#fff4f4;
+    background-color:#fff4f4a8;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
     color: #ffffff;
     z-index: 1; /* Set the z-index to make it appear on top of other content */
   }
@@ -86,6 +91,22 @@ h2 {
   }
 .no-trans:hover{
     transform: scale(1)!important;
-    box-shadow: none !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
-  
+.no-trans-boom-boom{
+  margin: 6.25rem;
+}
+.no-trans-boom-boom:hover{
+  transform: scale(1)!important;
+  box-shadow: none !important;
+} 
+.skill{
+  padding: .875rem; 
+  display:inline-block; 
+  background-color: rgba(254, 254, 254, 0.297);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  margin: 8px;
+  font-weight: 500;
+}
