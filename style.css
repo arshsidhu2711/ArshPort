@@ -1,0 +1,112 @@
+h1 {
+    font-family: 'DM Serif Display', serif;
+    padding: 0px;
+    margin: 0px;
+}
+h2 {
+    font-family: 'DM Serif Display', serif;
+    padding: 0px;
+    margin: 0px;
+    
+}
+h3 {
+  font-family: 'DM Serif Display', serif;
+}
+.holder{
+    color: #fff;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+    font-size: 3vw;
+}
+#background{
+    
+    background-color:#d39ab0;
+    height: 100%;
+}
+.navbar-custom {
+    background-color:#fff4f4a8;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    color: #ffffff;
+    z-index: 1; /* Set the z-index to make it appear on top of other content */
+  }
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+}
+.card{
+    transition: 1s;
+}
+.card:hover{
+    transform: scale(1.05);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0, 0, 0, 0.486);
+
+}
+.contact-section{
+    padding: 40px 0;
+  }
+  .contact-section h1{
+    text-align: center;
+    color: #fff;
+  }
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  .contact-form-text
+  {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #1111110b;
+    padding: 20px 40px;
+    outline: none;
+    color: #000;
+    transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 0;
+    background: #34495e;
+    color: #fff;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: #2980b9;
+  }
+.no-trans:hover{
+    transform: scale(1)!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.no-trans-boom-boom{
+  margin: 6.25rem;
+}
+.no-trans-boom-boom:hover{
+  transform: scale(1)!important;
+  box-shadow: none !important;
+} 
+.skill{
+  padding: .875rem; 
+  display:inline-block; 
+  background-color: rgba(254, 254, 254, 0.297);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  margin: 8px;
+  font-weight: 500;
+}
